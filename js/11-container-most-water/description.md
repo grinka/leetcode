@@ -17,6 +17,8 @@ The space complexity is a constant.
 
 ## Solution
 
+### Briteforce optimized
+
 We will follow same approach - move the indexes and check if new area is greater, that previous max value
 
 Let's look at this example
@@ -86,3 +88,32 @@ var maxArea = function(height) {
     return a;
 };
 ```
+
+### Optimal solution
+
+```js
+/**
+ * @param {number[]} height
+ * @return {number}
+ */
+var maxArea = function(height) {
+    if(height.length < 2){
+        return 0;
+    }
+    let l = 0;
+    let r = height.length - 1;
+    let a = 0;
+    
+    while(l < r) {
+        a = Math.max(a, (r-l) * Math.min(height[r], height[l]));
+        if(height[r] > height[l]) {
+            l++;
+        } else {
+            r--;
+        }
+    }
+    return a;
+};
+```
+
+The main idea is : get the widest possible rectangle. Then reduce the width trying to find the highest possible borders. To do it - always change the smallest border - left or right.
