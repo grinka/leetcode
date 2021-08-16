@@ -17,7 +17,7 @@ The space complexity is a constant.
 
 ## Solution
 
-### Briteforce optimized
+### Bruteforce optimized
 
 We will follow same approach - move the indexes and check if new area is greater, that previous max value
 
