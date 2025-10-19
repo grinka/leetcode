@@ -1,3 +1,4 @@
+[Detailed problem desription](description)
 # Intuition
 If we first sort the array in accending order and then for each position find the minimum possible new value (n - k <= ... <= n + k) greater than previous, we build the new array with maximum possible number of distinct elements.
 
@@ -22,7 +23,7 @@ Loop over all elements
 
 
 # Complexity
-- Time complexity: *O(m)* where `m` is the length of the array
+- Time complexity: *O(m * log(m))* where `m` is the length of the array. Most complex operation is initial sorting. The algorythm itself has *O(m)* time complexity
 
 - Space complexity: *O(1)*
 

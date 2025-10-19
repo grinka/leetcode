@@ -4,4 +4,4 @@ Problems and solutions for LeetCode problems. Solutions implemented using Javasc
 
 | Problem | Level | Solution |
 | -------- | -------- | --------- |
-| [3397](3397/description) | Medium | [solution](3397/solution) |
+| [3397](3397/index) | Medium | [solution](3397/solution) |
