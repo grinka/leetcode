@@ -1,5 +1,8 @@
+# 3397. Maximum Number of Distinct Elements After Operations
+
 - [Problem](index)
-- [Detailed problem desription](description)
+
+## Javascript solution
 
 # Intuition
 If we first sort the array in accending order and then for each position find the minimum possible new value (n - k <= ... <= n + k) greater than previous, we build the new array with maximum possible number of distinct elements.

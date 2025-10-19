@@ -1,6 +1,10 @@
+# 3. Longest Substring Without Repeating Characters
+
 - [Problem](index)
 - [Solution 1. Javascript](solution-1-javascript)
 - [Solution 2. C#](solution-2-csharp)
+
+## PHP Solution
 
 ```php
 class Solution {

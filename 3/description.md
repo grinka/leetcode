@@ -3,6 +3,8 @@
 - [Solution 2. C#](solution-2-csharp)
 - [Solution 3. PHP](solution-3-php)
 
+# 3. Longest Substring Without Repeating Characters
+
 Given a string s, find the length of the longest substring without duplicate characters.
 
 ## Example 1:

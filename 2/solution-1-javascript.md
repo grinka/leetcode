@@ -1,7 +1,9 @@
+# 2. Add Two Numbers
+
 - [Problem](index)
 - [Solution 2. C#](solution-2-csharp)
-- [Detailed problem desription](description)
 
+## Javascript solution
 
 ```javascript
 /**
