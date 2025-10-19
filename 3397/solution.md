@@ -27,7 +27,7 @@ Loop over all elements
 - Space complexity: *O(1)*
 
 # Code
-```javascript []
+```javascript
 /**
  * @param {number[]} nums
  * @param {number} k
