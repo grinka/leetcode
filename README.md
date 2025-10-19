@@ -4,5 +4,5 @@ Problems and solutions for LeetCode problems. Solutions implemented using Javasc
 
 | Problem | Level | Solution |
 | -------- | -------- | --------- |
-| [1. Two Sum](3397/index) | Easy | [solution](3397/solution) |
+| [1. Two Sum](1/index) | Easy | [solution](1/solution) |
 | [3397. Maximum Number of Distinct Elements After Operations](3397/index) | Medium | [solution](3397/solution) |
