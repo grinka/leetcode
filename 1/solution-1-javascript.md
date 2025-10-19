@@ -1,4 +1,8 @@
-[Detailed problem desription](description)
+- [Problem](index)
+- [Solution 2. C#](solution-2-csharp)
+- [Detailed problem desription](description)
+
+
 
 ```javascript
 /**

@@ -1,4 +1,6 @@
-[Detailed problem desription](description)
+- [Problem](index)
+- [Solution 1. Javascript](solution-1-javascript)
+- [Detailed problem desription](description)
 
 ```csharp
 public class Solution {

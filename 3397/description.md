@@ -1,6 +1,7 @@
 # 3397. Maximum Number of Distinct Elements After Operations
 
-[Solution](solution)
+- [Problem](index)
+- [Solution](solution)
 
 You are given an integer array nums and an integer k.
 

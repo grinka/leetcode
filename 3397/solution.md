@@ -1,4 +1,6 @@
-[Detailed problem desription](description)
+- [Problem](index)
+- [Detailed problem desription](description)
+
 # Intuition
 If we first sort the array in accending order and then for each position find the minimum possible new value (n - k <= ... <= n + k) greater than previous, we build the new array with maximum possible number of distinct elements.
 
