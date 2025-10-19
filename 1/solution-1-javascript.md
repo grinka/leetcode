@@ -2,8 +2,6 @@
 - [Solution 2. C#](solution-2-csharp)
 - [Detailed problem desription](description)
 
-
-
 ```javascript
 /**
  * @param {number[]} nums
