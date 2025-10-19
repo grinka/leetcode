@@ -1,6 +1,6 @@
 # 3397. Maximum Number of Distinct Elements After Operations
 
-https://leetcode.com/problems/maximum-number-of-distinct-elements-after-operations/description/
+[https://leetcode.com/problems/maximum-number-of-distinct-elements-after-operations/description/]([https://leetcode.com/problems/maximum-number-of-distinct-elements-after-operations/description/)
 
 You are given an integer array nums and an integer k.
 
