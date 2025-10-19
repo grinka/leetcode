@@ -9,7 +9,7 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 
 
 ## Example 1:
-[img ![example 1](image-1.png)] 
+![example 1](image-1.png)
 
 
 > **Input:** l1 = [2,4,3], l2 = [5,6,4]
