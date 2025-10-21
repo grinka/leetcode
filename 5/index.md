@@ -4,6 +4,8 @@
 - [Original Problem](https://leetcode.com/problems/longest-palindromic-substring/description/)
 - [Solution](solution-1-javascript)
 
+## Problem
+### Complexity: Medium
 
 Given a string `s`, return _the longest **palindromic substring**_ in `s`.
 

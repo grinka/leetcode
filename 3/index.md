@@ -6,6 +6,8 @@
 - [Solution 3. PHP](solution-3-php)
 
 ## Problem 
+### Complexity: Medium
+
 Given a string s, find the length of the longest substring without duplicate characters.
 
 ## Example 1:

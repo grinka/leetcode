@@ -5,6 +5,9 @@
 - [Solution 2. C#](solution-2-csharp)
 
 
+## Problem
+### Complexity: Easy
+
 There is a programming language with only four operations and one variable X:
 
 - `++X` and `X++` **increments** the value of the variable `X` by `1`.

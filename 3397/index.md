@@ -4,6 +4,7 @@
 - [Solution](solution)
 
 ## Problem
+### Complexity: Medium
 
 You are given an integer array nums and an integer k.
 
