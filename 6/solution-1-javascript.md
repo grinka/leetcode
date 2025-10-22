@@ -24,7 +24,6 @@ var convert = function(s, numRows) {
         }
         row += up ? -1 : 1;
     }
-    const result = m.map((row) => row.join('')).join('');
-    return result;
+    return m.map((row) => row.join('')).join('');
 };
 ```
