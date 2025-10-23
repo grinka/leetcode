@@ -15,3 +15,4 @@ Problems and solutions for LeetCode problems. Solutions implemented using Javasc
 | [9. Palindrome Number](9/index) | Easy | [javascript solution](9/solution-1-javascript)<br/>[c# solution](9/solution-2-csharp) |
 | [2011.Final Value of Variable After Performing Operations](2011/index) | Easy | [javascript solution](2011/solution-1-javascript)<br/>[c# solution](2011/solution-2-csharp) |
 | [3397. Maximum Number of Distinct Elements After Operations](3397/index) | Medium | [javascript solution](3397/solution) |
+| [3461. Check If Digits Are Equal in String After Operations I](3461/index) | Easy | [javascript solution](3461/solution-1-javascript) |
