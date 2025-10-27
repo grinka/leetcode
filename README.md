@@ -16,5 +16,6 @@ Problems and solutions for LeetCode problems. Solutions implemented using Javasc
 | [11. Container With Most Water](11/index) | Medium | [javascript solution](11/solution-1-javascript) |
 | [12. Integer to Roman](12/index) | Medium | [javascript solution](12/solution-1-javascript) |
 | [2011.Final Value of Variable After Performing Operations](2011/index) | Easy | [javascript solution](2011/solution-1-javascript)<br/>[c# solution](2011/solution-2-csharp) |
+| [2125. Number of Laser Beams in a Bank](2125/index) | Medium | [solution](2125/solution) |
 | [3397. Maximum Number of Distinct Elements After Operations](3397/index) | Medium | [javascript solution](3397/solution) |
 | [3461. Check If Digits Are Equal in String After Operations I](3461/index) | Easy | [javascript solution](3461/solution-1-javascript) |
