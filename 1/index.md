@@ -1,9 +1,14 @@
 # 1. Two Sum
+<a name="top"></a>
 
 - [Original Problem](https://leetcode.com/problems/two-sum/description/)
-- [Solution 1. Javascript](solution-1-javascript)
-- [Solution 2. C#](solution-2-csharp)
+- [Solution 1. Javascript](#javascript-solution)
+- [Solution 1a. Javascript, using Map](#javascript-solution-use-map)
+- [Solution 2. C#](#c-solution)
 
+
+<detais>
+<summary>Problem</summary>
 
 ## Problem
 ### Complexity: Easy
@@ -48,3 +53,71 @@ So, if we fix one of the numbers, say x, we have to scan the entire array to fin
 
 >[!TIP]Hint 3
 The second train of thought is, without changing the array, can we use additional space somehow? Like maybe a hash map to speed up the search?
+
+</details>
+
+## Javascript solution
+[Top](#top)
+```javascript
+/**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number[]}
+ */
+var twoSum = function (nums, target) {
+  let collector = {};
+  for(idx = 0; idx < nums.length; idx++) {
+    const elem = nums[idx];
+    const second = target - elem;
+    if (typeof(collector[second]) !== 'undefined') {
+      return [collector[second], idx];
+    } else {
+      collector[elem] = idx;
+    }
+  }
+  return [];
+};
+```
+
+## Javascript solution, use Map
+[Top](#top)
+```javascript
+/**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number[]}
+ */
+var twoSum = function(nums, target) {
+    const indicies = new Map();
+    for(let i = 0; i < nums.length; i++) {
+        const pair = target - nums[i];
+        if(indicies.has(pair)) {
+            return [indicies.get(pair), i];
+        }
+        indicies.set(nums[i], i);
+    }
+
+    return [];
+};
+```
+
+## C# Solution
+[Top](#top)
+
+```csharp
+public class Solution {
+    public int[] TwoSum(int[] nums, int target) {
+        var collector = new Dictionary<int, int>();
+        for(var idx = 0; idx < nums.Length; idx++) {
+            int second = target - nums[idx];
+            if(collector.ContainsKey(second)) {
+                return new[] { collector[second], idx };
+            }
+            if(!collector.ContainsKey(nums[idx])) {
+                collector.Add(nums[idx], idx);
+            }
+        }
+        throw new Exception("Valid answer does not exist");
+    }
+}
+```
