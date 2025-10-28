@@ -7,7 +7,7 @@
 - [Solution 2. C#](#c-solution)
 
 
-<detais>
+<details>
 <summary>Problem</summary>
 
 ## Problem
