@@ -1,8 +1,8 @@
 # 8. String to Integer (atoi)
 
 - [Original Problem](https://leetcode.com/problems/string-to-integer-atoi/description/)
-- [C# Solution](solution-1-csharp)
-- [Javascript Solution](solution-2-javascript)
+- [C# Solution](#c-solution)
+- [Javascript Solution](#javascript-solution)
 
 ## Problem
 ### Coplexity: Medium
@@ -88,3 +88,113 @@ Reading stops at the first non-digit character 'w'.
 
 - `0 <= s.length <= 200`
 - `s` consists of English letters (lower-case and upper-case), digits `(0-9)`, `' '`, `'+'`, `'-'`, and `'.'`.
+
+## C# Solution
+
+[Top](#8-string-to-integer-atoi) |
+[Problem](#problem) |
+C# Solution |
+[Javascript Solution](#javascript-solution)
+
+```csharp
+public class Solution {
+    public int MyAtoi(string str) {
+        int maxAllowed = 214748364; // 7 for positive, 8 for negative
+        var isPositive = true;
+        if(str.Length == 0) {
+            return 0;
+        }
+        var idx = 0;
+        while(idx < str.Length && str[idx] == ' ') {
+            idx++;
+        }
+        if(idx >= str.Length) {
+            return 0;
+        }
+        
+        if(str[idx] == '-' || str[idx] == '+') {
+            isPositive = str[idx] == '+';
+            idx++;
+            if(idx >= str.Length) {
+                return 0;
+            }
+        }
+        
+        var collect = 0;
+        while(idx < str.Length && str[idx] >= '0' && str[idx] <= '9') {
+            if( 
+                collect > maxAllowed ||
+                (
+                    collect == maxAllowed && 
+                    ((str[idx] > '7' && isPositive) || (str[idx] > '8' && !isPositive))
+                )
+            ) {
+                return isPositive ? 2147483647 : -2147483648;
+            }
+            
+            collect = collect * 10 + (str[idx] - '0');
+            idx++;
+        }
+        
+        return isPositive ? collect : -collect;
+        
+    }
+}
+```
+
+## Javascript Solution
+[Top](#8-string-to-integer-atoi) |
+[Problem](#problem) |
+[C# Solution](#c-solution) |
+Javascript Solution
+
+
+```javascript
+/**
+ * @param {string} s
+ * @return {number}
+ */
+var myAtoi = function(s) {
+    const maxAllowed = 214748364; // 7 for positive, 8 for negative
+    const maxPositive = 2147483647;
+    const maxNegative = -2147483648;
+    const code0 = 48;
+    const l = s.length;
+    let isPositive = true;
+    if(l === 0) {
+        return 0;
+    }
+
+    let idx = 0;
+
+    while(idx < l && s[idx] === ' ') {
+        idx++;
+    }
+    if(idx >= l) {
+        return 0;
+    }
+
+    if(s[idx] === '-') {
+        isPositive = false;
+        idx++;
+    } else if(s[idx] === '+') {
+        idx++;
+    }
+
+    let result = 0;
+    while(idx < l && s[idx] >= '0' && s[idx] <= '9') {
+        if(result > maxAllowed || 
+            (result === maxAllowed && 
+                ((s[idx] > '7' && isPositive) || (s[idx] === '9' && !isPositive))
+            )
+        ) {
+            return isPositive ? maxPositive : maxNegative;
+        }
+
+        result = result * 10 + s.charCodeAt(idx) - code0;
+        idx++;
+    }
+
+    return isPositive ? result : -result;
+};
+```

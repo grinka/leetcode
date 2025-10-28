@@ -1,7 +1,7 @@
 # 7. Reverse Integer
 
 - [Original Problem](https://leetcode.com/problems/reverse-integer/description/)
-- [C# Solution](solution-1-csharp)
+- [C# Solution](#c-solution)
 
 ## Problem
 ### Coplexity: Medium
@@ -30,3 +30,25 @@ Given a signed 32-bit integer `x`, return `x` _with its digits reversed_. If rev
 ## Constraints:
 
 - -2<sup>31</sup> <= x <= 2<sup>31</sup> - 1
+
+## C# Solution
+[Top](#7-reverse-integer) | [Problem](#problem)
+
+```csharp
+public class Solution {
+    public int Reverse(int x) {
+        int sum = 0;
+        bool isNegative = x < 0;
+        int xModified = isNegative ? -x : x;
+        while(xModified > 0)  {
+            if((sum >= 214748364 && xModified >=7) || sum > 214748364) {
+                return 0;
+            }
+            sum = sum * 10 + xModified % 10;
+            xModified = xModified / 10;
+        }
+        
+        return isNegative ? -sum : sum;
+    }
+}
+```

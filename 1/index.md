@@ -1,5 +1,4 @@
 # 1. Two Sum
-<a name="top"></a>
 
 - [Original Problem](https://leetcode.com/problems/two-sum/description/)
 - [Solution 1. Javascript](#javascript-solution)
@@ -51,7 +50,12 @@ So, if we fix one of the numbers, say x, we have to scan the entire array to fin
 The second train of thought is, without changing the array, can we use additional space somehow? Like maybe a hash map to speed up the search?
 
 ## Javascript solution
-[Top](#top)
+[Top](#1-two-sum) |
+[Problem](#problem) |
+Javascript Solution |
+[Javascript Solution 2](#javascript-solution-use-map) |
+[C# Solution](#c-solution)
+
 ```javascript
 /**
  * @param {number[]} nums
@@ -74,7 +78,12 @@ var twoSum = function (nums, target) {
 ```
 
 ## Javascript solution, use Map
-[Top](#top)
+[Top](#1-two-sum) |
+[Problem](#problem) |
+[Javascript Solution 1](#javascript-solution) |
+Javascript Solution 2 |
+[C# Solution](#c-solution)
+
 ```javascript
 /**
  * @param {number[]} nums
@@ -96,7 +105,11 @@ var twoSum = function(nums, target) {
 ```
 
 ## C# Solution
-[Top](#top)
+[Top](#1-two-sum) |
+[Problem](#problem) |
+[Javascript Solution 1](#javascript-solution) |
+[Javascript Solution 2](#javascript-solution-use-map) |
+C# Solution
 
 ```csharp
 public class Solution {
