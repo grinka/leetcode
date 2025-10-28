@@ -6,10 +6,6 @@
 - [Solution 1a. Javascript, using Map](#javascript-solution-use-map)
 - [Solution 2. C#](#c-solution)
 
-
-<details>
-<summary>Problem</summary>
-
 ## Problem
 ### Complexity: Easy
 
@@ -53,8 +49,6 @@ So, if we fix one of the numbers, say x, we have to scan the entire array to fin
 
 >[!TIP]Hint 3
 The second train of thought is, without changing the array, can we use additional space somehow? Like maybe a hash map to speed up the search?
-
-</details>
 
 ## Javascript solution
 [Top](#top)
