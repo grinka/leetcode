@@ -1,7 +1,7 @@
 # 11. Container With Most Water
 
 - [Original Problem](https://leetcode.com/problems/container-with-most-water/description/)
-- [Javascript Solution](solution-1-javascript)
+- [Javascript Solution](#javascript-solution)
 
 ## Problem
 ### Complexity: Medium
@@ -33,3 +33,26 @@ Return the _maximum amount of water a container can store_.
 - `n == height.length`
 - 2 <= n <= 10<sup>5</sup>
 - 0 <= height[i] <= 10<sup>4</sup>
+
+## Javascript Solution
+[Top](#11-container-with-most-water) | [Problem](#problem)
+
+```javascript
+/**
+ * @param {number[]} height
+ * @return {number}
+ */
+var maxArea = function(height) {
+    let l = 0, r = height.length - 1, res = 0;
+    while(l < r) {
+        res = Math.max(res, (r - l) * Math.min(height[l], height[r]));
+        if(height[l] < height[r]){
+            l++;
+        } else {
+            r--;
+        }
+    }
+
+    return res;
+};
+```

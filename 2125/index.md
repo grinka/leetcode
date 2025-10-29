@@ -2,6 +2,9 @@
 
 - [Original Problem](https://leetcode.com/problems/number-of-laser-beams-in-a-bank/description/)
 - [Solution](solution)
+  - [Javascript](#javascript)
+  - [C# Version 1](#c-version-1)
+  - [C# Version 2](#c-version-2)
 
 ## Problem
 ### Complexity: Medium
@@ -50,3 +53,94 @@ Return __the total number of laser beams in the bank__.
 - `n == bank[i].length`
 - `1 <= m, n <= 500`
 - `bank[i][j]` is either `'0'` or `'1'`.
+
+## Solution
+
+### Approach
+We need to calculate how many lasers can be set between two consequtive rows with beams only.
+If there are any "empty" rows between them, they don't affect the number of lasers. If we have beams in rows 1, 2 and 3, we need to count lasers between rows 1 and 2, and lasers between 2 and 3. Lasers between 1 and 3 could not exist because of the second constraint of the problem.
+
+If lasers are set between all possible beams, then their quantity between two rows equals to a product of sum of the beams in first row and sum of the beams in second row.
+
+### Javascript
+[Top](#2125-number-of-laser-beams-in-a-bank) |
+[Problem](#problem) |
+[Solution](solution) (
+Javascript |
+[C# Version 1](#c-version-1) |
+[C# Version 2](#c-version-2) )
+
+```javascript
+/**
+ * @param {string[]} bank
+ * @return {number}
+ */
+var numberOfBeams = function(bank) {
+    let res = 0, prev = 0;
+    for(const row of bank) {
+        const devices = [...row].reduce((s, c) => s + (+c), 0);
+        if(devices > 0) {
+            if(prev > 0) {
+                res += devices * prev;
+            }
+            prev = devices;
+        }
+    }
+    return res;
+};
+```
+
+### C# Version 1
+[Top](#2125-number-of-laser-beams-in-a-bank) |
+[Problem](#problem) |
+[Solution](solution) (
+[Javascript](#javascript) |
+C# Version 1 |
+[C# Version 2](#c-version-2) )
+
+This solution looks "fancy" and uses `LINQ`. It even can be considered a one-lines (split on several lines for better readability). But it's slower.
+
+```csharp
+public class Solution {
+    public int NumberOfBeams(string[] bank) {
+        return bank
+            .Select((row) => row.Count((c) => c == '1'))
+            .Where(d => d > 0)
+            .Aggregate((sum: 0, prev: 0),
+                (acc, d) => (sum: acc.sum + acc.prev * d, prev: d))
+            .sum;
+    }
+}
+```
+
+### C# Version 2
+[Top](#2125-number-of-laser-beams-in-a-bank) |
+[Problem](#problem) |
+[Solution](solution) (
+[Javascript](#javascript) |
+[C# Version 1](#c-version-1) |
+C# Version 2 )
+
+This solution has same idea, but uses implicit loops instead of `LINQ`.
+
+```csharp
+public class Solution {
+    public int NumberOfBeams(string[] bank) {
+        var (result, prev) = (0, 0);
+        foreach(var row in bank) {
+            var devices = 0;
+            foreach(var c in row) {
+                if(c == '1') {
+                    devices++;
+                }
+            }
+            if(devices > 0) {
+                result += devices * prev;
+                prev = devices;
+            }
+        }
+
+        return result;
+    }
+}
+```
