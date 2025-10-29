@@ -1,7 +1,7 @@
 # 6. Zigzag Conversion
 
 - [Original Problem](https://leetcode.com/problems/zigzag-conversion/description/)
-- [Solution](solution-1-javascript)
+- [Solution](#javascript-solution)
 
 ## Problem
 ### Complexity: Medium
@@ -48,3 +48,30 @@ P     I
 - `1 <= s.length <= 1000`
 - `s` consists of English letters (lower-case and upper-case), `','` and `'.'`.
 - `1 <= numRows <= 1000`
+
+## Javascript Solution
+[Top](#6-zigzag-conversion) | [Problem](#problem)
+
+```javascript
+/**
+ * @param {string} s
+ * @param {number} numRows
+ * @return {string}
+ */
+var convert = function(s, numRows) {
+    if(numRows === 1) {
+        return s;
+    }
+    const m = Array(numRows).fill(0).map(() => []);
+    let up = false;
+    let row = 0;
+    for(let i = 0; i < s.length; i++) {
+        m[row].push(s[i]);
+        if((up && row === 0) || (!up && row === numRows - 1)) {
+            up = !up;
+        }
+        row += up ? -1 : 1;
+    }
+    return m.map((row) => row.join('')).join('');
+};
+```
