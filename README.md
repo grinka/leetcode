@@ -18,6 +18,7 @@ Problems and solutions for LeetCode problems. Solutions implemented using Javasc
 | [13 Roman to Integer](13/index) | Easy |
 | [14. Longest Common Prefix](14/index) | Easy |
 | [15. 3Sum](15/index) | Medium |
+| [16. 3Sum Closest](16/index) | Medium |
 | [1526. Minimum Number of Increments on Subarrays to Form a Target Array](1526/index) | Hard |
 | [2011. Final Value of Variable After Performing Operations](2011/index) | Easy |
 | [2125. Number of Laser Beams in a Bank](2125/index) | Medium |
