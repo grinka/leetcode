@@ -4,6 +4,7 @@
     - [Javascript](#javascript)
 
 ## Problem
+### Complexity: Medium
 
 Given an integer array `nums` of length `n` and an integer `target`, find three integers in `nums` such that the sum is closest to `target`.
 
