@@ -25,7 +25,7 @@ Problems and solutions for LeetCode problems. Solutions implemented using Javasc
 | [20. Valid Parentheses](20/index) | Easy |
 | [21. Merge Two Sorted Lists](21/index) | Easy |
 | [22. Generate Parentheses](22/index) | Medium |
-
+| [23. Merge k Sorted Lists](23/index) | Hard |
 | [1526. Minimum Number of Increments on Subarrays to Form a Target Array](1526/index) | Hard |
 | [2011. Final Value of Variable After Performing Operations](2011/index) | Easy |
 | [2125. Number of Laser Beams in a Bank](2125/index) | Medium |
