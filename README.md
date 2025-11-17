@@ -31,6 +31,7 @@ Problems and solutions for LeetCode problems. Solutions implemented using Javasc
 | [27. Remove Element](27/index) | Easy |
 | [28. Find the Index of the First Occurence in a String](28/index) | Easy |
 | [29. Divide Two Integer](29/index) | Medium |
+| [31. Next Permutation](31/index) | Medium |
 | [474. Ones and Zeroes](474/index) | Medium |
 | [1526. Minimum Number of Increments on Subarrays to Form a Target Array](1526/index) | Hard |
 | [2011. Final Value of Variable After Performing Operations](2011/index) | Easy |
