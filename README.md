@@ -33,6 +33,7 @@ Problems and solutions for LeetCode problems. Solutions implemented using Javasc
 | [29. Divide Two Integer](29/index) | Medium |
 | [31. Next Permutation](31/index) | Medium |
 | [33. Search in Rotated Sorted Array](33/index) | Medium |
+| [34. Find First and Last Position of Element in Sorted Array](34/index) | Medium |
 | [474. Ones and Zeroes](474/index) | Medium |
 | [1437. Check If All 1's Are at Least Length K Places Away](1437/index) | Easy |
 | [1526. Minimum Number of Increments on Subarrays to Form a Target Array](1526/index) | Hard |
