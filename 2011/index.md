@@ -66,11 +66,8 @@ To perform correct operation, we need to determine, what kind of operation is it
 Use standard `reduce` method to check every element of the array and collect the summary result.
 
 ### Complexity
-- Time complexity: $$O(n)$$ where `n` - size of the array.
-<!-- Add your time complexity here, e.g. $$O(n)$$ -->
-
-- Space complexity: $$O(1)$$
-<!-- Add your space complexity here, e.g. $$O(n)$$ -->
+- Time complexity: *O(n)* where `n` - size of the array.
+- Space complexity: *O(1)*
 
 ## Javascript
 [Top](#2011-final-value-of-variable-after-performing-operations) |

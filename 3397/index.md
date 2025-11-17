@@ -61,7 +61,6 @@ Loop over all elements
 
 ### Complexity
 - Time complexity: *O(m * log(m))* where `m` is the length of the array. Most complex operation is initial sorting. The algorythm itself has *O(m)* time complexity
-
 - Space complexity: *O(1)*
 
 ## Javascript Solution

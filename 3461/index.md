@@ -65,8 +65,8 @@ This solution is not optimal, but it's simple and easy to understand. We can use
 
 ### Complexity: 
 
-- Time Complexity: O(n<sup>2</sup>), where `n` is length of the string
-- Space Complexity: O(n)
+- Time Complexity: *O(n<sup>2</sup>)*, where `n` is length of the string
+- Space Complexity: *O(n)*
 
 ## Javascript Solution
 [Top](#3461-check-if-digits-are-equal-in-string-after-operations-i) |

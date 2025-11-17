@@ -68,11 +68,8 @@ Then we apply this power on `2` and return the result - 1;
 - Return the calculated number - 1
 
 ### Complexity
-- Time complexity: `O(log(n))` - we suppose that `Math.log2` calculates the logarithm of n in `log(n)` time
-<!-- Add your time complexity here, e.g. $$O(n)$$ -->
-
-- Space complexity: `O(1)`
-<!-- Add your space complexity here, e.g. $$O(n)$$ -->
+- Time complexity: *O(log(n))* - we suppose that `Math.log2` calculates the logarithm of n in `log(n)` time
+- Space complexity: *O(1)*
 
 ## C# V.1 - one line
 [Top](#3370-smallest-number-with-all-set-bits) |

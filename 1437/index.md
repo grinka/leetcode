@@ -48,8 +48,8 @@ Initialilze the `last` with value equal to `-k - 1`. This guarantees that if we 
 - After the loop, return true - we didn't find any pair where distance is less than `k`
 
 ### Complexity
-- Time complexity: $O(n)$
-- Space complexity: $O(1)$
+- Time complexity: *O(n)*
+- Space complexity: *O(1)*
 
 ### Javascript
 
