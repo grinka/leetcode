@@ -1,6 +1,8 @@
 # 31. Next Permutation
 
 - [Original Problem](https://leetcode.com/problems/next-permutation/description/)
+- [Solution](#solution)
+    - [Javascript](#javascript)
 
 ## Problem
 ### Complexity: Medium
@@ -42,6 +44,8 @@ The replacement must be in place and use only constant extra memory.
 
 ## Solution
 ### Javascript
+
+[Top](#31-next-permutation) | [Problem](#problem)
 
 ```javascript
 /**
