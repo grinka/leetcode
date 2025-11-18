@@ -35,6 +35,7 @@ Problems and solutions for LeetCode problems. Solutions implemented using Javasc
 | [33. Search in Rotated Sorted Array](33/index) | Medium |
 | [34. Find First and Last Position of Element in Sorted Array](34/index) | Medium |
 | [35. Search Insert Position](35/index) | Easy |
+| [36. Valid Sudoku](36/index) | Medium |
 | [474. Ones and Zeroes](474/index) | Medium |
 | [1437. Check If All 1's Are at Least Length K Places Away](1437/index) | Easy |
 | [1526. Minimum Number of Increments on Subarrays to Form a Target Array](1526/index) | Hard |
