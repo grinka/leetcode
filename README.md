@@ -38,6 +38,7 @@ Problems and solutions for LeetCode problems. Solutions implemented using Javasc
 | [36. Valid Sudoku](36/index) | Medium |
 | [38. Count and Say](38/index) | Medium |
 | [474. Ones and Zeroes](474/index) | Medium |
+| [717. 1-bit and 2-bit Characters](717/index) | Easy |
 | [1437. Check If All 1's Are at Least Length K Places Away](1437/index) | Easy |
 | [1526. Minimum Number of Increments on Subarrays to Form a Target Array](1526/index) | Hard |
 | [2011. Final Value of Variable After Performing Operations](2011/index) | Easy |
