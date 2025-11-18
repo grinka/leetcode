@@ -39,6 +39,7 @@ Problems and solutions for LeetCode problems. Solutions implemented using Javasc
 | [38. Count and Say](38/index) | Medium |
 | [39. Combination Sum](39/index) | Medium |
 | [43. Mutiply Strings](43/index) | Medium |
+| [45. Jump Game II](45/index) | Medium |
 | [474. Ones and Zeroes](474/index) | Medium |
 | [717. 1-bit and 2-bit Characters](717/index) | Easy |
 | [1437. Check If All 1's Are at Least Length K Places Away](1437/index) | Easy |
