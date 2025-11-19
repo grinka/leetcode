@@ -46,6 +46,7 @@ Problems and solutions for LeetCode problems. Solutions implemented using Javasc
 | [1526. Minimum Number of Increments on Subarrays to Form a Target Array](1526/index) | Hard |
 | [2011. Final Value of Variable After Performing Operations](2011/index) | Easy |
 | [2125. Number of Laser Beams in a Bank](2125/index) | Medium |
+| [2154. Keep Multiplying Found Values by Two](2154/index) | Easy |
 | [3370. Smallest Number With All Set Bits](3370/index) | Easy |
 | [3397. Maximum Number of Distinct Elements After Operations](3397/index) | Medium |
 | [3461. Check If Digits Are Equal in String After Operations I](3461/index) | Easy |
