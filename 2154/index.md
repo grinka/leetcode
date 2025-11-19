@@ -63,7 +63,7 @@ The trick is to use most efficient language features.
 [Top](#2154-keep-multiplying-found-values-by-two) | 
 [Problem](#problem) | 
 [Solution](#solution) (
-    <small>[Javascript](#javascript) |
+    <small>Javascript |
     [C#](#c)</small>
 )
 
@@ -84,7 +84,14 @@ var findFinalValue = function(nums, original) {
 
 ### C#
 
-``csharp
+[Top](#2154-keep-multiplying-found-values-by-two) | 
+[Problem](#problem) | 
+[Solution](#solution) (
+    <small>[Javascript](#javascript) |
+    C#</small>
+)
+
+```csharp
 public class Solution {
     public int FindFinalValue(int[] nums, int original) {
         while(nums.Contains(original)) {
