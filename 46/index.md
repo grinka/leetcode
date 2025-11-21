@@ -1,6 +1,8 @@
 # 46. Permutations
 
-- [original Problem](https://leetcode.com/problems/permutations/description/)
+- [Original Problem](https://leetcode.com/problems/permutations/description/)
+- [Solution](#solution)
+  - [Javascript](#javascript)
 
 ## Problem
 **Complexity: Medium**
@@ -30,6 +32,8 @@ Given an array `nums` of distinct integers, return all the possible permutations
 
 ## Solution
 ### Javascript
+
+[Top](#46-permutations) | [Problem](#problem)
 
 ```javascript
 /**
