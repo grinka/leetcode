@@ -42,6 +42,7 @@ Problems and solutions for LeetCode problems. Solutions implemented using Javasc
 | [45. Jump Game II](45/index) | Medium |
 | [46. Permutations](46/index) | Medium |
 | [49. Group Anagram](49/index) | Medium |
+| [53. Maximum Subarray](53/index) | Medium |
 | [474. Ones and Zeroes](474/index) | Medium |
 | [717. 1-bit and 2-bit Characters](717/index) | Easy |
 | [757. Set Intersection Size At Least Two](757/index) | Hard |
@@ -51,6 +52,7 @@ Problems and solutions for LeetCode problems. Solutions implemented using Javasc
 | [2011. Final Value of Variable After Performing Operations](2011/index) | Easy |
 | [2125. Number of Laser Beams in a Bank](2125/index) | Medium |
 | [2154. Keep Multiplying Found Values by Two](2154/index) | Easy |
+| [3190. Find Minimum Operations to Make All Elements Divisible by Three](3190/index) | Easy |
 | [3370. Smallest Number With All Set Bits](3370/index) | Easy |
 | [3397. Maximum Number of Distinct Elements After Operations](3397/index) | Medium |
 | [3461. Check If Digits Are Equal in String After Operations I](3461/index) | Easy |
