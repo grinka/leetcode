@@ -2,7 +2,8 @@
 
 | Problem | Level | 
 | -------- | -------- |
-| [53. Maximum Subarray](51-100/53/index) | Medium |
-| [54. Spiral Matrix](51-100/54/index) | Medium |
-| [55. Jump Game](51-100/55/index) | Medium |
-| [57. Insert Interval](51-100/57/index) | Medium |
+| [53. Maximum Subarray](53/index) | Medium |
+| [54. Spiral Matrix](54/index) | Medium |
+| [55. Jump Game](55/index) | Medium |
+| [57. Insert Interval](57/index) | Medium |
+| [58. Length of Last Word](58/index) | Easy |
