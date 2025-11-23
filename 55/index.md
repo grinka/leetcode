@@ -1,6 +1,8 @@
 # 55. Jump Game
 
 - [Original Problem](https://leetcode.com/problems/jump-game/description/)
+- [Solution](#solution)
+  - [Javascript](#javascript)
 
 ## Problem
 **Complexity: Medium**
