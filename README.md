@@ -44,6 +44,8 @@ Problems and solutions for LeetCode problems. Solutions implemented using Javasc
 | [49. Group Anagram](49/index) | Medium |
 | [53. Maximum Subarray](53/index) | Medium |
 | [54. Spiral Matrix](54/index) | Medium |
+| [55. Jump Game](55/index) | Medium |
+| [57. Insert Interval](57/index) | Medium |
 | [474. Ones and Zeroes](474/index) | Medium |
 | [717. 1-bit and 2-bit Characters](717/index) | Easy |
 | [757. Set Intersection Size At Least Two](757/index) | Hard |
