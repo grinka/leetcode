@@ -47,6 +47,7 @@ Problems and solutions for LeetCode problems. Solutions implemented using Javasc
 | [55. Jump Game](51-100/55/index) | Medium |
 | [57. Insert Interval](51-100/57/index) | Medium |
 | [58. Length of Last Word](51-100/58/index) | Easy |
+| [59. Spiral Matrix II](51-100/59/index) | Medium |
 | [474. Ones and Zeroes](474/index) | Medium |
 | [717. 1-bit and 2-bit Characters](717/index) | Easy |
 | [757. Set Intersection Size At Least Two](757/index) | Hard |

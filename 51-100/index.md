@@ -7,3 +7,4 @@
 | [55. Jump Game](55/index) | Medium |
 | [57. Insert Interval](57/index) | Medium |
 | [58. Length of Last Word](58/index) | Easy |
+| [59. Spiral Matrix II](59/index) | Medium |
