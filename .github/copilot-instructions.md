@@ -65,8 +65,8 @@ Follow this exact structure when creating new problem files (see `3190/index.md`
    - Problems 51-100 → `51-100/{number}/`
    - Problems 1001-1050 → `1001-1050/{number}/`
    - Standalone (3000+) → `{number}/`
-3. **Create `index.md`**: Follow exact format above with proper navigation links
-4. **Download images**: Use `curl` to download example images from LeetCode CDN (typically `https://assets.leetcode.com/uploads/...`)
+3. **Download images FIRST**: Check the fetched webpage for example images and download them immediately using `curl` before creating the file. LeetCode images are typically at `https://assets.leetcode.com/uploads/...`. Name them `image.png`, `image-1.png`, etc. **This step is critical and must not be skipped.**
+4. **Create `index.md`**: Follow exact format above with proper navigation links and image references
 5. **Update indexes**: Add entry to both:
    - Root `README.md` (sorted by problem number)
    - Range `index.md` (if in a range folder)
