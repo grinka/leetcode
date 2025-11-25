@@ -52,6 +52,7 @@ Problems and solutions for LeetCode problems. Solutions implemented using Javasc
 | [474. Ones and Zeroes](451-500/474/index) | Medium |
 | [717. 1-bit and 2-bit Characters](701-750/717/index) | Easy |
 | [757. Set Intersection Size At Least Two](751-800/757/index) | Hard |
+| [1015. Smallest Integer Divisible by K](1001-1050/1015/index) | Medium |
 | [1018. Binary Prefix Divisibly By 5](1001-1050/1018/index) | Medium |
 | [1262. Greatest Sum Divisible by Three](1251-1300/1262/index) | Medium |
 | [1437. Check If All 1's Are at Least Length K Places Away](1437/index) | Easy |
