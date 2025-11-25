@@ -49,6 +49,7 @@ Problems and solutions for LeetCode problems. Solutions implemented using Javasc
 | [58. Length of Last Word](51-100/58/index) | Easy |
 | [59. Spiral Matrix II](51-100/59/index) | Medium |
 | [62. Unique Paths](51-100/62/index) | Medium |
+| [63. Unique Paths II](51-100/63/index) | Medium |
 | [474. Ones and Zeroes](451-500/474/index) | Medium |
 | [717. 1-bit and 2-bit Characters](701-750/717/index) | Easy |
 | [757. Set Intersection Size At Least Two](751-800/757/index) | Hard |
