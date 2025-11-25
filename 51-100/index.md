@@ -17,3 +17,4 @@
 | [71. Simplify Path](71/index) | Medium |
 | [73. Set Matrix Zeroes](73/index) | Medium |
 | [74. Search a 2D Matrix](74/index) | Medium |
+| [75. Sort Colors](75/index) | Medium |
