@@ -19,3 +19,4 @@
 | [74. Search a 2D Matrix](74/index) | Medium |
 | [75. Sort Colors](75/index) | Medium |
 | [78. Subsets](78/index) | Medium |
+| [86. Partition List](86/index) | Medium |

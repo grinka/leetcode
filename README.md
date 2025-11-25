@@ -59,6 +59,7 @@ Problems and solutions for LeetCode problems. Solutions implemented using Javasc
 | [74. Search a 2D Matrix](51-100/74/index) | Medium |
 | [75. Sort Colors](51-100/75/index) | Medium |
 | [78. Subsets](51-100/78/index) | Medium |
+| [86. Partition List](51-100/86/index) | Medium |
 | [474. Ones and Zeroes](451-500/474/index) | Medium |
 | [717. 1-bit and 2-bit Characters](701-750/717/index) | Easy |
 | [757. Set Intersection Size At Least Two](751-800/757/index) | Hard |
