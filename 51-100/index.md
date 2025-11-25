@@ -14,3 +14,4 @@
 | [66. Plus One](66/index) | Easy |
 | [67. Add Binary](67/index) | Easy |
 | [70. Climbing Stairs](70/index) | Easy |
+| [71. Simplify Path](71/index) | Medium |

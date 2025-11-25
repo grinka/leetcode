@@ -54,19 +54,20 @@ Problems and solutions for LeetCode problems. Solutions implemented using Javasc
 | [66. Plus One](51-100/66/index) | Easy |
 | [67. Add Binary](51-100/67/index) | Easy |
 | [70. Climbing Stairs](51-100/70/index) | Easy |
+| [71. Simplify Path](51-100/71/index) | Medium |
 | [474. Ones and Zeroes](451-500/474/index) | Medium |
 | [717. 1-bit and 2-bit Characters](701-750/717/index) | Easy |
 | [757. Set Intersection Size At Least Two](751-800/757/index) | Hard |
 | [1015. Smallest Integer Divisible by K](1001-1050/1015/index) | Medium |
 | [1018. Binary Prefix Divisibly By 5](1001-1050/1018/index) | Medium |
 | [1262. Greatest Sum Divisible by Three](1251-1300/1262/index) | Medium |
-| [1437. Check If All 1's Are at Least Length K Places Away](1437/index) | Easy |
-| [1526. Minimum Number of Increments on Subarrays to Form a Target Array](1526/index) | Hard |
-| [1930. Unique Length-3 Palindromi Subsequences](1930/index) | Medium |
-| [2011. Final Value of Variable After Performing Operations](2011/index) | Easy |
-| [2125. Number of Laser Beams in a Bank](2125/index) | Medium |
-| [2154. Keep Multiplying Found Values by Two](2154/index) | Easy |
-| [3190. Find Minimum Operations to Make All Elements Divisible by Three](3190/index) | Easy |
-| [3370. Smallest Number With All Set Bits](3370/index) | Easy |
-| [3397. Maximum Number of Distinct Elements After Operations](3397/index) | Medium |
-| [3461. Check If Digits Are Equal in String After Operations I](3461/index) | Easy |
+| [1437. Check If All 1's Are at Least Length K Places Away](1401-1450/1437/index) | Easy |
+| [1526. Minimum Number of Increments on Subarrays to Form a Target Array](1501-1550/1526/index) | Hard |
+| [1930. Unique Length-3 Palindromi Subsequences](1901-1950/1930/index) | Medium |
+| [2011. Final Value of Variable After Performing Operations](2001-2050/2011/index) | Easy |
+| [2125. Number of Laser Beams in a Bank](2101-2150/2125/index) | Medium |
+| [2154. Keep Multiplying Found Values by Two](2151-2200/2154/index) | Easy |
+| [3190. Find Minimum Operations to Make All Elements Divisible by Three](3151-3200/3190/index) | Easy |
+| [3370. Smallest Number With All Set Bits](3351-3400/3370/index) | Easy |
+| [3397. Maximum Number of Distinct Elements After Operations](3351-3400/3397/index) | Medium |
+| [3461. Check If Digits Are Equal in String After Operations I](3451-3500/3461/index) | Easy |
