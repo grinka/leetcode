@@ -11,3 +11,4 @@
 | [62. Unique Paths](62/index) | Medium |
 | [63. Unique Paths II](63/index) | Medium |
 | [64. Minimum Path Sum](64/index) | Medium |
+| [66. Plus One](66/index) | Easy |
