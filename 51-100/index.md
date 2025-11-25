@@ -21,3 +21,4 @@
 | [78. Subsets](78/index) | Medium |
 | [86. Partition List](86/index) | Medium |
 | [88. Merge Sorted Array](88/index) | Easy |
+| [91. Decode Ways](91/index) | Medium |
