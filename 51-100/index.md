@@ -22,3 +22,4 @@
 | [86. Partition List](86/index) | Medium |
 | [88. Merge Sorted Array](88/index) | Easy |
 | [91. Decode Ways](91/index) | Medium |
+| [92. Reverse Linked List II](92/index) | Medium |
