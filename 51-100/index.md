@@ -25,3 +25,4 @@
 | [92. Reverse Linked List II](92/index) | Medium |
 | [93. Restore IP Addresses](93/index) | Medium |
 | [94. Binary Tree Inorder Traversal](94/index) | Easy |
+| [95. Unique Binary Search Trees II](95/index) | Medium |
