@@ -24,3 +24,4 @@
 | [91. Decode Ways](91/index) | Medium |
 | [92. Reverse Linked List II](92/index) | Medium |
 | [93. Restore IP Addresses](93/index) | Medium |
+| [94. Binary Tree Inorder Traversal](94/index) | Easy |
