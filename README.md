@@ -63,6 +63,7 @@ Problems and solutions for LeetCode problems. Solutions implemented using Javasc
 | [88. Merge Sorted Array](51-100/88/index) | Easy |
 | [91. Decode Ways](51-100/91/index) | Medium |
 | [92. Reverse Linked List II](51-100/92/index) | Medium |
+| [93. Restore IP Addresses](51-100/93/index) | Medium |
 | [474. Ones and Zeroes](451-500/474/index) | Medium |
 | [717. 1-bit and 2-bit Characters](701-750/717/index) | Easy |
 | [757. Set Intersection Size At Least Two](751-800/757/index) | Hard |
