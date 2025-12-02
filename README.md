@@ -66,6 +66,7 @@ Problems and solutions for LeetCode problems. Solutions implemented using Javasc
 | [93. Restore IP Addresses](51-100/93/index) | Medium |
 | [94. Binary Tree Inorder Traversal](51-100/94/index) | Easy |
 | [95. Unique Binary Search Trees II](51-100/95/index) | Medium |
+| [100. Same Tree](51-100/100/index) | Easy |
 | [474. Ones and Zeroes](451-500/474/index) | Medium |
 | [717. 1-bit and 2-bit Characters](701-750/717/index) | Easy |
 | [757. Set Intersection Size At Least Two](751-800/757/index) | Hard |

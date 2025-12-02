@@ -26,3 +26,4 @@
 | [93. Restore IP Addresses](93/index) | Medium |
 | [94. Binary Tree Inorder Traversal](94/index) | Easy |
 | [95. Unique Binary Search Trees II](95/index) | Medium |
+| [100. Same Tree](100/index) | Easy |
