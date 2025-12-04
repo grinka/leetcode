@@ -69,6 +69,8 @@ Problems and solutions for LeetCode problems. Solutions implemented using Javasc
 | [100. Same Tree](51-100/100/index) | Easy |
 | [101. Symmetric Tree](101-150/101/index) | Easy |
 | [102. Binary Tree Level Order Traversal](101-150/102/index) | Medium |
+| [103. Binary Tree Zigzag Level Order Traversal](101-150/103/index) | Medium |
+| [104. Maximum Depth of Binary Tree](101-150/104/index) | Easy |
 | [474. Ones and Zeroes](451-500/474/index) | Medium |
 | [717. 1-bit and 2-bit Characters](701-750/717/index) | Easy |
 | [757. Set Intersection Size At Least Two](751-800/757/index) | Hard |

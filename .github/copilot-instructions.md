@@ -56,6 +56,7 @@ Follow this exact structure when creating new problem files (see `3190/index.md`
 3. **Language headers**: Match case exactly: "Javascript" (not JavaScript), "C#"
 4. **Images**: Download example images to problem folder as `image.png`, `image-1.png` with `![Example 1](image.png)`
 5. **Code blocks**: Include JSDoc/XML doc comments in solution code
+6. If part of the code has HTML tags <sup> or similar, ensure they are preserved in markdown (do not put in code blocks)
 
 ## Workflow for Adding New Problems
 
