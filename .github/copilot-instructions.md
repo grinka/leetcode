@@ -1,7 +1,7 @@
 # LeetCode Solutions Repository - AI Agent Instructions
 
 ## Repository Overview
-This is a personal LeetCode solutions repository with problems organized by number ranges. Solutions are implemented in **JavaScript** and **C#**. Each problem has its own `index.md` file with problem description, examples, constraints, and solution code.
+This is a personal LeetCode solutions repository with problems organized by number ranges. Solutions are implemented in **JavaScript** and **C#**. Each problem has its own `index.md` file with problem description, examples, constraints, and solution code. 
 
 ## Directory Structure
 - Problems are organized in range-based folders: `1-50/`, `51-100/`, `451-500/`, `1001-1050/`, etc.
@@ -35,6 +35,14 @@ Follow this exact structure when creating new problem files (see `3190/index.md`
 - {constraint list}
 
 ## Solution
+
+{Solution description, if any}
+
+### Intuition
+{Intuition description, if any}
+
+### Approach
+{Approach description, if any}
 
 ### {Language}
 

@@ -88,4 +88,5 @@ Problems and solutions for LeetCode problems. Solutions implemented using Javasc
 | [3190. Find Minimum Operations to Make All Elements Divisible by Three](3151-3200/3190/index) | Easy |
 | [3370. Smallest Number With All Set Bits](3351-3400/3370/index) | Easy |
 | [3397. Maximum Number of Distinct Elements After Operations](3351-3400/3397/index) | Medium |
+| [3432. Count Partitions with Even Sum Difference](3401-3450/3432/index) | Easy |
 | [3461. Check If Digits Are Equal in String After Operations I](3451-3500/3461/index) | Easy |
