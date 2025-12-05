@@ -76,6 +76,7 @@ Problems and solutions for LeetCode problems. Solutions implemented using Javasc
 | [111. Minimum Depth of Binary Tree](101-150/111/index) | Easy |
 | [116. Populating Next Right Pointers in Each Node](101-150/116/index) | Medium |
 | [118. Pascal's Triangle](101-150/118/index) | Easy |
+| [119. Pascal's Triangle II](101-150/119/index) | Easy |
 | [474. Ones and Zeroes](451-500/474/index) | Medium |
 | [717. 1-bit and 2-bit Characters](701-750/717/index) | Easy |
 | [757. Set Intersection Size At Least Two](751-800/757/index) | Hard |
