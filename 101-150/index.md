@@ -7,5 +7,6 @@
 | [103. Binary Tree Zigzag Level Order Traversal](103/index) | Medium |
 | [104. Maximum Depth of Binary Tree](104/index) | Easy |
 | [108. Convert Sorted Array to Binary Search Tree](108/index) | Easy |
-| [111. Minimum Depth of Binary Tree](111/index) | Easy |
 | [109. Convert Sorted List to Binary Search Tree](109/index) | Medium |
+| [111. Minimum Depth of Binary Tree](111/index) | Easy |
+| [116. Populating Next Right Pointers in Each Node](116/index) | Medium |
