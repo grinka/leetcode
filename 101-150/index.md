@@ -13,3 +13,5 @@
 | [118. Pascal's Triangle](118/index) | Easy |
 | [119. Pascal's Triangle II](119/index) | Easy |
 | [120. Triangle](120/index) | Medium |
+| [121. Best Time to Buy and Sell Stock](121/index) | Easy |
+| [122. Best Time to Buy and Sell Stock II](122/index) | Medium |
