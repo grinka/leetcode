@@ -85,6 +85,7 @@ Problems and solutions for LeetCode problems. Solutions implemented using Javasc
 | [1262. Greatest Sum Divisible by Three](1251-1300/1262/index) | Medium |
 | [1437. Check If All 1's Are at Least Length K Places Away](1401-1450/1437/index) | Easy |
 | [1526. Minimum Number of Increments on Subarrays to Form a Target Array](1501-1550/1526/index) | Hard |
+| [1925. Count Square Sum Triples](1901-1950/1925/index) | Easy |
 | [1930. Unique Length-3 Palindromi Subsequences](1901-1950/1930/index) | Medium |
 | [2011. Final Value of Variable After Performing Operations](2001-2050/2011/index) | Easy |
 | [2125. Number of Laser Beams in a Bank](2101-2150/2125/index) | Medium |
