@@ -80,6 +80,7 @@ Problems and solutions for LeetCode problems. Solutions implemented using Javasc
 | [120. Triangle](101-150/120/index) | Medium |
 | [121. Best Time to Buy and Sell Stock](101-150/121/index) | Easy |
 | [122. Best Time to Buy and Sell Stock II](101-150/122/index) | Medium |
+| [124. Binary Tree Maximum Path Sum](101-150/124/index) | Hard |
 | [474. Ones and Zeroes](451-500/474/index) | Medium |
 | [717. 1-bit and 2-bit Characters](701-750/717/index) | Easy |
 | [757. Set Intersection Size At Least Two](751-800/757/index) | Hard |

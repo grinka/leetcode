@@ -15,3 +15,4 @@
 | [120. Triangle](120/index) | Medium |
 | [121. Best Time to Buy and Sell Stock](121/index) | Easy |
 | [122. Best Time to Buy and Sell Stock II](122/index) | Medium |
+| [124. Binary Tree Maximum Path Sum](124/index) | Hard |
