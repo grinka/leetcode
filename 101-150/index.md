@@ -16,3 +16,4 @@
 | [121. Best Time to Buy and Sell Stock](121/index) | Easy |
 | [122. Best Time to Buy and Sell Stock II](122/index) | Medium |
 | [124. Binary Tree Maximum Path Sum](124/index) | Hard |
+| [125. Valid Palindrome](125/index) | Easy |
