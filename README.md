@@ -106,3 +106,4 @@ Problems and solutions for LeetCode problems. Solutions implemented using Javasc
 | [3397. Maximum Number of Distinct Elements After Operations](3351-3400/3397/index) | Medium |
 | [3432. Count Partitions with Even Sum Difference](3401-3450/3432/index) | Easy |
 | [3461. Check If Digits Are Equal in String After Operations I](3451-3500/3461/index) | Easy |
+| [3583. Count Special Triplets](3551-3600/3583/index) | Medium |
