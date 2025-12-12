@@ -7,3 +7,4 @@
 | Problem | Complexity |
 | ------- | ---------- |
 | [3432. Count Partitions with Even Sum Difference](3432/index) | Easy |
+| [3433. Count Mentions Per User](3433/index) | Medium |
