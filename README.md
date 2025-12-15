@@ -99,6 +99,7 @@ Problems and solutions for LeetCode problems. Solutions implemented using Javasc
 | [1925. Count Square Sum Triples](1901-1950/1925/index) | Easy |
 | [1930. Unique Length-3 Palindromi Subsequences](1901-1950/1930/index) | Medium |
 | [2011. Final Value of Variable After Performing Operations](2001-2050/2011/index) | Easy |
+| [2110. Number of Smooth Descent Periods of a Stock](2101-2150/2110/index) | Medium |
 | [2125. Number of Laser Beams in a Bank](2101-2150/2125/index) | Medium |
 | [2154. Keep Multiplying Found Values by Two](2151-2200/2154/index) | Easy |
 | [3190. Find Minimum Operations to Make All Elements Divisible by Three](3151-3200/3190/index) | Easy |
