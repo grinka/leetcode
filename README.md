@@ -109,3 +109,4 @@ Problems and solutions for LeetCode problems. Solutions implemented using Javasc
 | [3433. Count Mentions Per User](3401-3450/3433/index) | Medium |
 | [3461. Check If Digits Are Equal in String After Operations I](3451-3500/3461/index) | Easy |
 | [3583. Count Special Triplets](3551-3600/3583/index) | Medium |
+| [3606. Coupon Code Validator](3601-3650/3606/index) | Easy |
