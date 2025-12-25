@@ -23,3 +23,4 @@
 | [135. Candy](135/index) | Hard |
 | [136. Single Number](136/index) | Easy |
 | [138. Copy List with Random Pointer](138/index) | Medium |
+| [141. Linked List Cycle](141/index) | Easy |
