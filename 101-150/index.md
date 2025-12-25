@@ -26,3 +26,4 @@
 | [141. Linked List Cycle](141/index) | Easy |
 | [142. Linked List Cycle II](142/index) | Medium |
 | [143. Reorder List](143/index) | Medium |
+| [144. Binary Tree Preorder Traversal](144/index) | Easy |
