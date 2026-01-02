@@ -2,8 +2,8 @@ const ITEMS_PER_PAGE = 20;
 let currentPage = 1;
 let currentSort = { field: null, direction: 'asc' };
 let currentFilters = { level: 'all', beats: 'all' };
-let filteredProblems = [...problems];
-let sortedProblems = [...problems];
+let filteredProblems = [];
+let sortedProblems = [];
 
 function getLevelClass(level) {
     return `level-${level.toLowerCase()}`;
@@ -31,6 +31,7 @@ function getLevelPriority(level) {
 }
 
 function applyFilters() {
+    console.log('applyFilters called, problems length:', problems ? problems.length : 'undefined');
     filteredProblems = problems.filter(problem => {
         // Level filter
         if (currentFilters.level !== 'all' && problem.level !== currentFilters.level) {
@@ -53,12 +54,16 @@ function applyFilters() {
         return true;
     });
     
+    console.log('filteredProblems length:', filteredProblems.length);
+    
     // Re-apply sorting to filtered results
     if (currentSort.field) {
         sortProblems(currentSort.field, currentSort.direction);
     } else {
         sortedProblems = [...filteredProblems];
     }
+    
+    console.log('sortedProblems length:', sortedProblems.length);
 }
 
 function sortProblems(field, direction) {
@@ -196,26 +201,12 @@ function renderPagination() {
     const nextBtn = document.createElement('button');
     nextBtn.textContent = 'Next →';
     nextBtn.disabled = currentPage === totalPages;
-function handleFilterChange() {
-    currentFilters.level = document.getElementById('levelFilter').value;
-    currentFilters.beats = document.getElementById('beatsFilter').value;
-    
-    applyFilters();
-    currentPage = 1; // Reset to first page after filtering
-    renderTable(currentPage);
-    renderPagination();
+    nextBtn.onclick = () => goToPage(currentPage + 1);
+    paginationDiv.appendChild(nextBtn);
 }
 
-// Initialize on page load
-document.addEventListener('DOMContentLoaded', () => {
-    // Add click handlers to sortable headers
-    document.querySelectorAll('th.sortable').forEach(th => {
-        th.addEventListener('click', () => handleSort(th.dataset.sort));
-    });
-    
-    // Add change handlers to filters
-    document.getElementById('levelFilter').addEventListener('change', handleFilterChange);
-    document.getElementById('beatsFilter').addEventListener('change', handleFilterChangeonst totalPages = Math.ceil(sortedProblems.length / ITEMS_PER_PAGE);
+function goToPage(page) {
+    const totalPages = Math.ceil(sortedProblems.length / ITEMS_PER_PAGE);
     if (page < 1 || page > totalPages) return;
 
     currentPage = page;
@@ -237,6 +228,16 @@ function handleSort(field) {
     sortProblems(currentSort.field, currentSort.direction);
     updateSortIndicators();
     currentPage = 1; // Reset to first page after sorting
+    renderTable(currentPage);
+    renderPagination();
+}
+
+function handleFilterChange() {
+    currentFilters.level = document.getElementById('levelFilter').value;
+    currentFilters.beats = document.getElementById('beatsFilter').value;
+    
+    applyFilters();
+    currentPage = 1; // Reset to first page after filtering
     renderTable(currentPage);
     renderPagination();
 }
