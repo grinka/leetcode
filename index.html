@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeetCode Solutions - Paginated</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>LeetCode.com</h1>
+    <p class="subtitle">Problems and solutions for LeetCode problems. Solutions implemented using Javascript and C#.</p>
+
+    <div class="controls">
+        <div class="controls-row">
+            <div class="filters">
+                <div class="filter-group">
+                    <label for="levelFilter">Level:</label>
+                    <select id="levelFilter">
+                        <option value="all">All</option>
+                        <option value="Easy">Easy</option>
+                        <option value="Medium">Medium</option>
+                        <option value="Hard">Hard</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="beatsFilter">Beats:</label>
+                    <select id="beatsFilter">
+                        <option value="all">All</option>
+                        <option value="100">100%</option>
+                        <option value="80-100">80-100%</option>
+                        <option value="below-80">Below 80%</option>
+                    </select>
+                </div>
+            </div>
+            <div class="page-info">
+                Showing <span id="start">1</span>-<span id="end">20</span> of <span id="total">0</span> problems
+            </div>
+        </div>
+        <div class="controls-row">
+            <div></div>
+            <div class="pagination" id="pagination">
+                <!-- Pagination buttons will be inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th class="sortable" data-sort="number">Problem</th>
+                <th class="sortable" data-sort="level">Level</th>
+                <th class="sortable" data-sort="runtime">Runtime</th>
+                <th class="sortable" data-sort="beats">Beats</th>
+            </tr>
+        </thead>
+        <tbody id="problemsTable">
+            <!-- Problems will be inserted here -->
+        </tbody>
+    </table>
+
+    <script src="problems.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
