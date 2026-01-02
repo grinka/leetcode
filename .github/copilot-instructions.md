@@ -45,6 +45,7 @@ Follow this exact structure when creating new problem files (see `3190/index.md`
 {Approach description, if any}
 
 ### {Language}
+**Runtime: {runtime, if any}, Beats: {beats %, if any}**
 
 [Top](#{anchor}) |
 [Problem](#problem) |
@@ -86,10 +87,11 @@ Follow this exact structure when creating new problem files (see `3190/index.md`
 
 ### Index Update Pattern:
 ```markdown
-| [{number}. {Title}]({relative-path}/index) | {Complexity} |
+| [{number}. {Title}]({relative-path}/index) | {Complexity} | {Runtime} | {beats %} |
 ```
 - Root README uses paths like `51-100/64/index`
 - Range index uses paths like `64/index`
+- Both root README and range index files should include Runtime and Beats % columns when available
 
 ## Common Operations
 

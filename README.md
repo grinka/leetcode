@@ -2,16 +2,16 @@
 
 Problems and solutions for LeetCode problems. Solutions implemented using Javascript and C#.
 
-| Problem | Level | 
-| -------- | -------- |
-| [1. Two Sum](1-50/1/index) | Easy |
-| [2. Add Two Numbers](1-50/2/index) | Medium |
-| [3. Longest Substring Without Repeating Characters](1-50/3/index) | Medium |
-| [4. Median of Two Sorted Arrays](1-50/4/index) | Hard |
-| [5. Longest Palindromic Substring](1-50/5/index) | Medium |
-| [6. Zigzag Conversion](1-50/6/index) | Medium |
-| [7. Reverse Integer](1-50/7/index) | Medium |
-| [8. String to Integer (atoi)](1-50/8/index) | Medium |
+| Problem | Level | Runtime | Beats |
+| -------- | -------- | -------- | -------- |
+| [1. Two Sum](1-50/1/index) | Easy | 4ms | 53.48% |
+| [2. Add Two Numbers](1-50/2/index) | Medium | 112ms, 20ms, 108ms | ~5% |
+| [3. Longest Substring Without Repeating Characters](1-50/3/index) | Medium | 79ms, 115ms | ~13% |
+| [4. Median of Two Sorted Arrays](1-50/4/index) | Hard | 87ms | 5% |
+| [5. Longest Palindromic Substring](1-50/5/index) | Medium | 72ms | 26% |
+| [6. Zigzag Conversion](1-50/6/index) | Medium | 86ms | 10.97% |
+| [7. Reverse Integer](1-50/7/index) | Medium | 40ms | 6.51% |
+| [8. String to Integer (atoi)](1-50/8/index) | Medium | 4ms | 16.82% |
 | [9. Palindrome Number](1-50/9/index) | Easy |
 | [11. Container With Most Water](1-50/11/index) | Medium |
 | [12. Integer to Roman](1-50/12/index) | Medium |
@@ -95,9 +95,11 @@ Problems and solutions for LeetCode problems. Solutions implemented using Javasc
 | [474. Ones and Zeroes](451-500/474/index) | Medium |
 | [717. 1-bit and 2-bit Characters](701-750/717/index) | Easy |
 | [757. Set Intersection Size At Least Two](751-800/757/index) | Hard |
+| [961. N-Repeated Element in Size 2N Array](951-1000/961/index) | Easy | 0ms | 100% |
 | [1015. Smallest Integer Divisible by K](1001-1050/1015/index) | Medium |
 | [1018. Binary Prefix Divisibly By 5](1001-1050/1018/index) | Medium |
 | [1262. Greatest Sum Divisible by Three](1251-1300/1262/index) | Medium |
+| [1351. Count Negative Numbers in a Sorted Matrix](1301-1350/1351/index) | Easy | 0ms | 100% |
 | [1437. Check If All 1's Are at Least Length K Places Away](1401-1450/1437/index) | Easy |
 | [1526. Minimum Number of Increments on Subarrays to Form a Target Array](1501-1550/1526/index) | Hard |
 | [1925. Count Square Sum Triples](1901-1950/1925/index) | Easy |
