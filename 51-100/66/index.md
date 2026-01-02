@@ -2,6 +2,7 @@
 
 - [Original Problem](https://leetcode.com/problems/plus-one/description/)
 - [Solution](#solution)
+  - [Javascript](#javascript)
   - [C#](#c)
 
 ## Problem
@@ -42,9 +43,64 @@ Increment the large integer by one and return the resulting array of digits.
 - `digits` does not contain any leading `0`'s.
 
 ## Solution
+
+### Javascript
+**Runtime: 0ms, Beats: 100%**
+
+[Top](#66-plus-one) |
+[Problem](#problem) |
+[Solution](#solution) (<small>
+    Javascript |
+    [C#](#c)
+</small>)
+
+#### Intuition
+In best case we need to increment only one number in the last array cell. If it's 9, then we need to set it to 0 and try to increment previous one. Repeat this operation until number in the cell is less than 9. If all numbers equal to 9, then we need to set them all to 0 and append 1 at the beginning. To avoid shifting all cells of the array to the right, we can set the first element to 1 and append 0 at the end - result will be the same.
+
+#### Approach
+1. Set indexer to the last element of the array
+2. Loop while indexer is greater or equals to 0
+   - if number in the array cell is 9, set it to the 0 and decrement indexer - we need to increment one more digit
+   - else, increment the number in the cell and return the array
+3. If loop is over and we're still here, it means, all the numbers in the array are 9 and we set them all to 0
+4. Set first number to the 1 and append 0 to the end
+5. Return the array
+
+#### Complexity
+- **Time complexity:** O(n)
+- **Space complexity:** O(1)
+
+```javascript
+/**
+ * @param {number[]} digits
+ * @return {number[]}
+ */
+var plusOne = function(digits) {
+    let i = digits.length - 1;
+    while(i >= 0) {
+        if(digits[i] === 9) {
+            digits[i] = 0;
+            i--;
+        } else {
+            digits[i]++;
+            return digits;
+        }
+    }
+
+    digits[0] = 1;
+    digits.push(0);
+    return digits;
+};
+```
+
 ### C#
 
-[Top](#66-plus-one) | [Problem](#problem)
+[Top](#66-plus-one) |
+[Problem](#problem) |
+[Solution](#solution) (<small>
+    [Javascript](#javascript) |
+    C#
+</small>)
 
 ```csharp
 public class Solution {
@@ -53,17 +109,14 @@ public class Solution {
         var shift = 1;
         for(var i = digits.Length - 1; i >= 0; i--) {
             result[i] = digits[i] + shift;
-            Console.WriteLine($"Result[{i}] == {result[i]}");
             if(result[i] >= 10) {
                 result[i] = result[i] - 10;
                 shift = 1;
-                Console.WriteLine($"Bigger value. After adjusting: {result[i]}");
             } else {
                 shift = 0;
             }
             
             if(shift == 0) {
-                Console.WriteLine("shift is 0, time to fill the result");
                 for(var j = 0; j < i; j++) {
                     result[j] = digits[j];
                 }
