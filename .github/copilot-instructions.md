@@ -7,8 +7,7 @@ This is a personal LeetCode solutions repository with problems organized by numb
 - Problems are organized in range-based folders: `1-50/`, `51-100/`, `451-500/`, `1001-1050/`, etc.
 - Individual problems: `{range}/{problem-number}/index.md` (e.g., `51-100/64/index.md`)
 - Standalone problems outside ranges stored directly: `{number}/index.md` (e.g., `3190/index.md`)
-- Each range folder has its own `index.md` with navigation links
-- Root `README.md` contains master list of all problems
+- The `problems.js` file contains the master list of all problems with metadata (number, title, path, complexity level, runtime, beats %)
 
 ## Problem Document Format
 Follow this exact structure when creating new problem files (see `3190/index.md` or `51-100/70/index.md` as reference):
@@ -80,29 +79,22 @@ Follow this exact structure when creating new problem files (see `3190/index.md`
    - Problems 301-350 → `301-350/{number}/`
 3. **Download images FIRST**: Check the fetched webpage for example images and download them immediately using `curl` before creating the file. LeetCode images are typically at `https://assets.leetcode.com/uploads/...`. Name them `image.png`, `image-1.png`, etc. **This step is critical and must not be skipped.**
 4. **Create `index.md`**: Follow exact format above with proper navigation links and image references
-5. **Update indexes**: Add entry to both:
-   - Root `README.md` (sorted by problem number)
-   - Range `index.md` (if in a range folder)
-6. **Commit changes**: Ensure all new files and modified indexes are committed together. Commit message should reference the problem number and title.
+5. **Update problems.js**: Add entry to `problems.js` in sorted position by problem number
+6. **Commit changes**: Ensure all new files and the updated `problems.js` are committed together. Commit message should reference the problem number and title.
 
-### Index Update Pattern:
-```markdown
-| [{number}. {Title}]({relative-path}/index) | {Complexity} | {Runtime} | {beats %} |
+### Problems.js Entry Format:
+```javascript
+{ number: {number}, title: "{Problem Title}", path: "{range}/{number}/index", level: "{Easy|Medium|Hard}", runtime: "{runtime}", beats: "{beats %}" }
 ```
-- Root README uses paths like `51-100/64/index`
-- Range index uses paths like `64/index`
-- Both root README and range index files should include Runtime and Beats % columns when available
+- Path format: `51-100/64/index` (do not include `.md`)
+- Runtime and beats can be empty strings `""` if not yet available
+- Array should remain sorted by problem number
 
 ## Common Operations
 
 ### Download LeetCode Images:
 ```powershell
 curl -o "c:\user\leetcode\{range}\{number}\image.png" "{leetcode-cdn-url}"
-```
-
-### Navigation Links in Range Indexes:
-```markdown
-| [Index](../) | [1-50](../1-50/index) | 51-100 |
 ```
 
 ## Key Conventions
