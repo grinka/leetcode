@@ -84,10 +84,11 @@ Follow this exact structure when creating new problem files (see `3190/index.md`
 
 ### Problems.js Entry Format:
 ```javascript
-{ number: {number}, title: "{Problem Title}", path: "{range}/{number}/index", level: "{Easy|Medium|Hard}", runtime: "{runtime}", beats: "{beats %}" }
+{ number: {number}, title: "{Problem Title}", path: "{range}/{number}/index", level: "{Easy|Medium|Hard}", runtime: {runtime}, beats: {beats} }
 ```
 - Path format: `51-100/64/index` (do not include `.md`)
-- Runtime and beats can be empty strings `""` if not yet available
+- Runtime: Integer number in milliseconds (e.g., `4`, `152`) or `null` if not available
+- Beats: Decimal number (e.g., `53.48`, `100`) or `null` if not available
 - Array should remain sorted by problem number
 
 ## Common Operations

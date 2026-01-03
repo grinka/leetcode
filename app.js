@@ -10,24 +10,28 @@ function getLevelClass(level) {
 }
 
 function parseRuntime(runtime) {
-    if (!runtime || runtime.trim() === '') return Infinity;
-    
-    // Extract first number from string like "4ms" or "112ms, 20ms, 108ms"
-    const match = runtime.match(/(\d+(?:\.\d+)?)\s*ms/);
-    return match ? parseFloat(match[1]) : Infinity;
+    if (runtime === null || runtime === undefined) return Infinity;
+    return typeof runtime === 'number' ? runtime : Infinity;
 }
 
 function parseBeats(beats) {
-    if (!beats || beats.trim() === '') return 0;
-    
-    // Extract number from string like "53.48%" or "~5%"
-    const match = beats.match(/(\d+(?:\.\d+)?)\s*%/);
-    return match ? parseFloat(match[1]) : 0;
+    if (beats === null || beats === undefined) return 0;
+    return typeof beats === 'number' ? beats : 0;
 }
 
 function getLevelPriority(level) {
     const priorities = { 'Easy': 1, 'Medium': 2, 'Hard': 3 };
     return priorities[level] || 999;
+}
+
+function formatRuntime(runtime) {
+    if (runtime === null || runtime === undefined) return '';
+    return typeof runtime === 'number' ? `${runtime}ms` : '';
+}
+
+function formatBeats(beats) {
+    if (beats === null || beats === undefined) return '';
+    return typeof beats === 'number' ? `${beats}%` : '';
 }
 
 function applyFilters() {
@@ -124,8 +128,8 @@ function renderTable(page) {
         row.innerHTML = `
             <td><a href="${problem.path}">${problem.number}. ${problem.title}</a></td>
             <td class="${getLevelClass(problem.level)}">${problem.level}</td>
-            <td>${problem.runtime}</td>
-            <td>${problem.beats}</td>
+            <td>${formatRuntime(problem.runtime)}</td>
+            <td>${formatBeats(problem.beats)}</td>
         `;
         tbody.appendChild(row);
     });
