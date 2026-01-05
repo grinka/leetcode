@@ -99,6 +99,7 @@ const problems = [
     { number: 1526, title: "Minimum Number of Increments on Subarrays to Form a Target Array", path: "1501-1550/1526/index", level: "Hard", runtime: 7, beats: 6 },
     { number: 1925, title: "Count Square Sum Triples", path: "1901-1950/1925/index", level: "Easy", runtime: 21, beats: 30 },
     { number: 1930, title: "Unique Length-3 Palindromi Subsequences", path: "1901-1950/1930/index", level: "Medium", runtime: 289, beats: 39 },
+    { number: 1975, title: "Maximum Matrix Sum", path: "1901-1950/1975/index", level: "Medium", runtime: 5, beats: 100 },
     { number: 2011, title: "Final Value of Variable After Performing Operations", path: "2001-2050/2011/index", level: "Easy", runtime: 0, beats: 100 },
     { number: 2110, title: "Number of Smooth Descent Periods of a Stock", path: "2101-2150/2110/index", level: "Medium", runtime: 3, beats: 89 },
     { number: 2125, title: "Number of Laser Beams in a Bank", path: "2101-2150/2125/index", level: "Medium", runtime: 6, beats: 82 },
