@@ -90,6 +90,7 @@ const problems = [
     { number: 474, title: "Ones and Zeroes", path: "451-500/474/index", level: "Medium", runtime: 84, beats: 38 },
     { number: 717, title: "1-bit and 2-bit Characters", path: "701-750/717/index", level: "Easy", runtime: 0, beats: 100 },
     { number: 757, title: "Set Intersection Size At Least Two", path: "751-800/757/index", level: "Hard", runtime: 9, beats: 84 },
+    { number: 865, title: "Smallest Subtree with all the Deepest Nodes", path: "851-900/865/index", level: "Medium", runtime: 0, beats: 100 },
     { number: 961, title: "N-Repeated Element in Size 2N Array", path: "951-1000/961/index", level: "Easy", runtime: 0, beats: 100 },
     { number: 1015, title: "Smallest Integer Divisible by K", path: "1001-1050/1015/index", level: "Medium", runtime: 1, beats: 86 },
     { number: 1018, title: "Binary Prefix Divisibly By 5", path: "1001-1050/1018/index", level: "Medium", runtime: 1, beats: 89 },
