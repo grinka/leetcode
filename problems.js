@@ -105,6 +105,7 @@ const problems = [
     { number: 2110, title: "Number of Smooth Descent Periods of a Stock", path: "2101-2150/2110/index", level: "Medium", runtime: 3, beats: 89 },
     { number: 2125, title: "Number of Laser Beams in a Bank", path: "2101-2150/2125/index", level: "Medium", runtime: 6, beats: 82 },
     { number: 2154, title: "Keep Multiplying Found Values by Two", path: "2151-2200/2154/index", level: "Easy", runtime: 1, beats: 72 },
+    { number: 2943, title: "Maximize Area of Square Hole in Grid", path: "2901-2950/2943/index", level: "Medium", runtime: 1, beats: 100 },
     { number: 3190, title: "Find Minimum Operations to Make All Elements Divisible by Three", path: "3151-3200/3190/index", level: "Easy", runtime: 0, beats: 100 },
     { number: 3370, title: "Smallest Number With All Set Bits", path: "3351-3400/3370/index", level: "Easy", runtime: 0, beats: 100 },
     { number: 3397, title: "Maximum Number of Distinct Elements After Operations", path: "3351-3400/3397/index", level: "Medium", runtime: 128, beats: 82 },
