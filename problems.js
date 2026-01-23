@@ -95,6 +95,7 @@ const problems = [
     { number: 1015, title: "Smallest Integer Divisible by K", path: "1001-1050/1015/index", level: "Medium", runtime: 1, beats: 86 },
     { number: 1018, title: "Binary Prefix Divisibly By 5", path: "1001-1050/1018/index", level: "Medium", runtime: 1, beats: 89 },
     { number: 1262, title: "Greatest Sum Divisible by Three", path: "1251-1300/1262/index", level: "Medium", runtime: 2, beats: 99 },
+    { number: 1292, title: "Maximum Side Length of a Square with Sum Less than or Equal to Threshold", path: "1251-1300/1292/index", level: "Medium", runtime: 356, beats: 5 },
     { number: 1351, title: "Count Negative Numbers in a Sorted Matrix", path: "1301-1350/1351/index", level: "Easy", runtime: 0, beats: 100 },
     { number: 1437, title: "Check If All 1's Are at Least Length K Places Away", path: "1401-1450/1437/index", level: "Easy", runtime: 0, beats: 100 },
     { number: 1526, title: "Minimum Number of Increments on Subarrays to Form a Target Array", path: "1501-1550/1526/index", level: "Hard", runtime: 7, beats: 6 },
