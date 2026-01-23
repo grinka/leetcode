@@ -112,6 +112,7 @@ const problems = [
     { number: 3432, title: "Count Partitions with Even Sum Difference", path: "3401-3450/3432/index", level: "Easy", runtime: 0, beats: 100 },
     { number: 3433, title: "Count Mentions Per User", path: "3401-3450/3433/index", level: "Medium", runtime: 28, beats: 41 },
     { number: 3461, title: "Check If Digits Are Equal in String After Operations I", path: "3451-3500/3461/index", level: "Easy", runtime: 3, beats: 93 },
+    { number: 3507, title: "Minimum Pair Removal to Sort Array I", path: "3501-3550/3507/index", level: "Easy", runtime: 1, beats: 94 },
     { number: 3583, title: "Count Special Triplets", path: "3551-3600/3583/index", level: "Medium", runtime: 119, beats: 96 },
     { number: 3606, title: "Coupon Code Validator", path: "3601-3650/3606/index", level: "Easy", runtime: 4, beats: 79 }
 ];
