@@ -107,6 +107,7 @@ const problems = [
     { number: 2154, title: "Keep Multiplying Found Values by Two", path: "2151-2200/2154/index", level: "Easy", runtime: 1, beats: 72 },
     { number: 2943, title: "Maximize Area of Square Hole in Grid", path: "2901-2950/2943/index", level: "Medium", runtime: 1, beats: 100 },
     { number: 3190, title: "Find Minimum Operations to Make All Elements Divisible by Three", path: "3151-3200/3190/index", level: "Easy", runtime: 0, beats: 100 },
+    { number: 3315, title: "Construct the Minimum Bitwise Array II", path: "3301-3350/3315/index", level: "Medium", runtime: 0, beats: 100 },
     { number: 3370, title: "Smallest Number With All Set Bits", path: "3351-3400/3370/index", level: "Easy", runtime: 0, beats: 100 },
     { number: 3397, title: "Maximum Number of Distinct Elements After Operations", path: "3351-3400/3397/index", level: "Medium", runtime: 128, beats: 82 },
     { number: 3432, title: "Count Partitions with Even Sum Difference", path: "3401-3450/3432/index", level: "Easy", runtime: 0, beats: 100 },
