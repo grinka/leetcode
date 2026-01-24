@@ -80,7 +80,9 @@ Follow this exact structure when creating new problem files (see `3190/index.md`
 3. **Download images FIRST**: Check the fetched webpage for example images and download them immediately using `curl` before creating the file. LeetCode images are typically at `https://assets.leetcode.com/uploads/...`. Name them `image.png`, `image-1.png`, etc. **This step is critical and must not be skipped.**
 4. **Create `index.md`**: Follow exact format above with proper navigation links and image references
 5. **Update problems.js**: Add entry to `problems.js` in sorted position by problem number
-6. **Commit changes**: Ensure all new files and the updated `problems.js` are committed together. Commit message should reference the problem number and title.
+6. **Commit changes**: Ensure all new files and the updated `problems.js` are committed together.
+
+  - **Automatic commits:** The AI agent should commit these changes automatically without asking the user first when performing the documented workflow. Use the commit message format: `Add LeetCode {number} - {Problem Title} (JS solution)` and include any additional language tags if multiple languages were added (e.g., `(JS, C#)`). If the user explicitly asked to hold commits or prefers a different flow, follow the user's instruction instead.
 
 ### Problems.js Entry Format:
 ```javascript
