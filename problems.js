@@ -99,6 +99,7 @@ const problems = [
     { number: 1351, title: "Count Negative Numbers in a Sorted Matrix", path: "1301-1350/1351/index", level: "Easy", runtime: 0, beats: 100 },
     { number: 1437, title: "Check If All 1's Are at Least Length K Places Away", path: "1401-1450/1437/index", level: "Easy", runtime: 0, beats: 100 },
     { number: 1526, title: "Minimum Number of Increments on Subarrays to Form a Target Array", path: "1501-1550/1526/index", level: "Hard", runtime: 7, beats: 6 },
+    { number: 1877, title: "Minimize Maximum Pair Sum in Array", path: "1851-1900/1877/index", level: "Medium", runtime: 88, beats: 99 },
     { number: 1925, title: "Count Square Sum Triples", path: "1901-1950/1925/index", level: "Easy", runtime: 21, beats: 30 },
     { number: 1930, title: "Unique Length-3 Palindromi Subsequences", path: "1901-1950/1930/index", level: "Medium", runtime: 289, beats: 39 },
     { number: 1975, title: "Maximum Matrix Sum", path: "1901-1950/1975/index", level: "Medium", runtime: 5, beats: 100 },
